@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/btn_states1"
+    android:minHeight="40dp">
+
+    <LinearLayout
+        android:id="@+id/menu_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/menu_easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/easy"
+            android:textSize="36sp"
+            android:background="@drawable/btn_states1"
+            android:contentDescription="@string/easy"
+            android:drawableLeft="@mipmap/ic_settings_overscan_white_48dp" />
+
+        <Button
+            android:id="@+id/menu_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/normal"
+            android:textSize="36sp"
+            android:background="@drawable/btn_states1"
+            android:contentDescription="@string/normal"
+            android:drawableLeft="@mipmap/ic_refresh_white_48dp" />
+
+        <Button
+            android:id="@+id/menu_hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/hard"
+            android:textSize="36sp"
+            android:background="@drawable/btn_states1"
+            android:contentDescription="@string/hard"
+            android:drawableLeft="@mipmap/ic_flip_white_48dp" />
+
+        <ListView
+            android:id="@+id/menu_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/btn_states1"
+            android:contentDescription="@string/hello_world"/>
+    </LinearLayout>
+
+</LinearLayout>
